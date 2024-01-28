@@ -19,3 +19,6 @@ keywords      = ["bones", "bevy", "scripting", "ecs", "framework"]
 
 [profile.release]
 lto = true
+
+[patch.crates-io]
+quinn = { git = "https://github.com/hack3ric/quinn", branch = "archrv-0.10" }
